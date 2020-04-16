@@ -1,0 +1,24 @@
+#header{
+    text-align:right;
+}
+img { height: 100px;
+    width: 100px;
+}
+body{
+    background-color: cyan;
+}
+
+#div1{
+    width: 20%;
+
+    margin: 0 auto;
+
+    padding: 20px;
+    align-content: center;
+    border-color: blue;
+    background-color: cornflowerblue;
+    
+}
+#divtext{
+    text-align: center;
+}
