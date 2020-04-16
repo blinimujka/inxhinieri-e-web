@@ -1,20 +1,32 @@
+
 #header{
+    
     text-align:right;
 }
+div div{color: red;}
 img { height: 100px;
     width: 100px;
 }
 body{
+    
     background-color: cyan;
 }
-
+label{
+    margin-top: 10px;
+}
+input{
+    margin-top: 10px;
+}
 #div1{
+    
+    border-radius: 25px;
     width: 20%;
 
     margin: 0 auto;
 
     padding: 20px;
     align-content: center;
+    text-align: center;
     border-color: blue;
     background-color: cornflowerblue;
     
@@ -22,3 +34,14 @@ body{
 #divtext{
     text-align: center;
 }
+button{
+    margin-top: 20px;
+    
+    border-radius: 50px;
+    
+    background-color: darkgreen;
+}
+#foot{text-align: center;
+    margin-top: 200px;
+}
+
