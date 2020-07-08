@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+
+<div class="header">
+    <a href="index.html"><img class="logo"src="img/logo1.png"></a>
+</div>
+
+<div class="container">
+    <div class="link-container">
+      <a id="firstA" href="#" onclick="changeForm(0)">Login</a>
+      <a href="#" onclick="changeForm(1)">Register</a>
+    </div>
+    <form id="mainForm" action="">
+      <div class="form-style">
+      
+        <input type="text" class="input" placeholder="Email" />
+        
+        <input type="password" class="input" placeholder="Password" />
+        <input
+          id="submit"
+          type="submit"
+          class="input submit"
+          value="Login"
+          onclick="validateForm(0)"
+        />
+      </div>
+      <div class="hidden">
+        
+        <input type="text" class="input" placeholder="Name" />
+        
+        <input type="text" class="input" placeholder="Email" />
+     
+        <input type="text" class="input" id="pwd-click" placeholder="Password" />
+        <p id="pwd-req-display"> Password must contain at least 8 characters (A-Z, a-z, 0-9 )</p>
+        
+        <input
+          id="submit"
+          type="submit"
+          class="input submit"
+          value="Create Account "
+          onclick="validateForm(1)"
+        />
+      </div>
+    </form>
+    
+  </div>
+
+  
+  <script src="register.js"></script>
+
+    </body>
+    </html>
+
+     
+
+
+       
+                

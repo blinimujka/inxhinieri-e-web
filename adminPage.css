@@ -1,0 +1,33 @@
+.links{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    }
+    a{
+        color: red;
+        border: black 1px solid;
+        font-size: 20px;
+        padding: 10px;
+        text-decoration: none;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: row;
+       
+        }
+    .shtoProduktin{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        margin-left: 25%;
+    }
+    .fshijProduktin{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        margin-right: 100px;
+    }
+    input{
+        margin: 10px 0 10px 0;
+    }
+   
